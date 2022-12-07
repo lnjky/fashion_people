@@ -1,5 +1,7 @@
-# fashion_people
+# 패플 <fashion_people>
 **패션 추천 어플**
+
+2022 캡스톤디자인 팀 프로젝트로 제작한 패션 추천 어플리케이션
 ___
 [목적]
 
@@ -40,6 +42,9 @@ ___
 
 ___
 
+[스크린샷]
 
+<img src="https://user-images.githubusercontent.com/82382142/206210857-d4b83b71-92f6-46ad-af7c-f115e205c965.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210866-29fd7a4c-5db6-4d8a-9c34-db52dc67eced.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210870-2f85a682-a3e9-4f97-a9a1-938747e0a521.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210872-41ce5aa6-017b-4651-a917-823259dd6d30.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210877-3b7e8c2c-9906-40a4-8591-3342f31459e1.jpg" width="200" height="400"/>
 
+<img src="https://user-images.githubusercontent.com/82382142/206210879-65b3f751-4a8b-4dc8-9daf-c095c848cb00.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210883-2f525bed-6382-4888-b2b3-84621fb9f319.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210887-fb3c6a41-ee2a-40dd-b648-d22d8eb9af50.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210891-a9c8b72e-1a05-40b0-b601-2aebbd67f1ac.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210897-6985ca65-044b-45eb-a584-c2c0c0e368fd.jpg" width="200" height="400"/>
         
