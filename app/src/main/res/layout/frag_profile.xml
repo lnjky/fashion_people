@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#cbd3d2">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="95.3dp"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/tv_profile_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_toStartOf="@+id/profile_settings"
+            android:layout_toEndOf="@+id/tv_profile_nickname"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.514" />
+
+        <ImageView
+            android:id="@+id/profile_settings"
+            android:layout_width="29.3dp"
+            android:layout_height="29.3dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_baseline_settings_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116.3dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:layout_marginTop="9.3dp">
+
+        <LinearLayout
+            android:id="@+id/profile_uploaded_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="36.3dp"
+                android:layout_height="33.7dp"
+                android:layout_marginBottom="9.3dp"
+                android:src="@drawable/ic_baseline_camera_alt_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:textColor="#494949"
+                android:layout_marginBottom="5.3dp"
+                android:text="업로드한 사진" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cbd3d2"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#cbd3d2"/>
+
+
+        <LinearLayout
+            android:id="@+id/profile_save_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="36.3dp"
+                android:layout_height="33.7dp"
+                android:layout_marginBottom="9dp"
+                android:src="@drawable/ic_baseline_push_pin_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:textColor="#494949"
+                android:layout_marginBottom="5.3dp"
+                android:text="찜 목록" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_profile_pass"
+        android:layout_width="87dp"
+        android:layout_height="39dp">
+
+    </TextView>
+</LinearLayout>

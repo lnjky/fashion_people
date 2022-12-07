@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_round"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/item_upload_image"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/item_upload_contents"
+        app:layout_constraintTop_toBottomOf="@+id/upload_time">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/item_upload_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_round"
+        android:gravity="center"
+        android:text="contents"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_upload_image"
+        app:layout_constraintVertical_bias="0.0"></TextView>
+
+    <TextView
+        android:id="@+id/item_upload_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="nickname"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <RatingBar
+        android:id="@+id/upload_ratingbar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="4dp"
+        android:isIndicator="true"
+        android:max="5"
+        android:rating="0"
+        android:stepSize="0.5"
+        android:progressTint="#B388FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_ratingbar"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_upload_contents">
+
+    </RatingBar>
+
+    <TextView
+        android:id="@+id/tv_ratingbar"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_round"
+        android:gravity="center"
+        android:text="별점 주기"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_upload_contents"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/upload_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="time"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_upload_nickname">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_upload_ratingcount"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/item_upload_rating"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_upload_documentid"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="148dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_upload_collectionid"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/item_upload_documentid"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_upload_rating"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="160dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/item_upload_delete"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_baseline_close_24"
+        app:layout_constraintBottom_toBottomOf="@+id/item_upload_star"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/item_upload_star">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/item_upload_url"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/item_upload_image"
+        app:layout_constraintEnd_toStartOf="@+id/item_upload_star"
+        app:layout_constraintStart_toEndOf="@+id/item_upload_rating"
+        app:layout_constraintTop_toTopOf="@+id/item_upload_documentid">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/item_upload_star"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/ic_baseline_star_24"
+        app:layout_constraintBottom_toTopOf="@+id/item_upload_image"
+        app:layout_constraintEnd_toStartOf="@+id/item_upload_delete"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551">
+
+    </ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

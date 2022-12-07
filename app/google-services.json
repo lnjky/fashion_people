@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468111199704",
+    "project_id": "styleplt",
+    "storage_bucket": "styleplt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468111199704:android:a399ee36115fffbf0ab6ad",
+        "android_client_info": {
+          "package_name": "com.example.styleplt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468111199704-c0uofufqg5f6mmcc2dhsrn994o9q80h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJSEWhPqQTcYmcbT87W1Fav-HBz0CLUI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468111199704-c0uofufqg5f6mmcc2dhsrn994o9q80h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context=".UpdateProfile">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+
+    </include>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toStartOf="@+id/tv_post_title"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.481">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_post_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/koreanah1_r"
+        android:text="회원 정보 수정"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원 정보"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.075">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_set_current_nickname"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/edit_bg"
+        android:ems="5"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="현재 닉네임"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/et_update_nickname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_update_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="변경할 닉네임"
+        android:textColor="#FF0000"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_update_nickname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_current_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재 닉네임"
+        android:textColor="#000DFF"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_set_current_nickname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_current_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재 나이"
+        android:textColor="#000DFF"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_set_current_age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent">
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_update_nickname"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/edit_bg"
+        android:ems="10"
+        android:hint=" NICKNAME"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_set_current_age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_set_current_age"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/edit_bg"
+        android:ems="5"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="현재 나이"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/et_update_age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_update_age"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/edit_bg"
+        android:ems="10"
+        android:hint=" AGE"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_update"
+        app:layout_constraintEnd_toEndOf="@+id/et_update_nickname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_update_nickname" />
+
+    <TextView
+        android:id="@+id/tv_update_age"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text="변경할 나이"
+        android:textColor="#FF0000"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_update_age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/button_round"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="회원 정보 수정"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/et_update_age"
+        app:layout_constraintStart_toStartOf="@+id/et_update_age" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
