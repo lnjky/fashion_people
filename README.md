@@ -3,7 +3,7 @@
 
 2022 캡스톤디자인 팀 프로젝트로 제작한 패션 추천 어플리케이션
 ___
-# [목적]
+**[목적]**
 
 "요즘도 이런거 입나?"
 패션에 관심이 많거나 잘 입고 싶은데 좀처럼 되지 않는 사람들을 위해 만든 어플
@@ -12,7 +12,7 @@ ___
 사용시 자신이 입은 옷 사진을 피드에 올려 다른 사용자들에게 평가를 받을 수 있으며 피드에 올라오는 사진들을 통해 트렌드를 파악하는데 도움을 줄 수 있다.
 
 ___
-# [내용]
+**[내용]**
 
 주요 기능으로는 로그인, 회원가입, 피드, 날씨, 게시판, 프로필으로 구성되어있음
 
@@ -30,7 +30,7 @@ ___
 
 ___
 
-# [사용 기술 & 라이브러리]
+**[사용 기술 & 라이브러리]**
 
 1. 파이어베이스
 2. 리사이클러뷰
@@ -42,7 +42,7 @@ ___
 
 ___
 
-# [스크린샷]
+**[스크린샷]**
 
 <img src="https://user-images.githubusercontent.com/82382142/206210857-d4b83b71-92f6-46ad-af7c-f115e205c965.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210866-29fd7a4c-5db6-4d8a-9c34-db52dc67eced.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210870-2f85a682-a3e9-4f97-a9a1-938747e0a521.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210872-41ce5aa6-017b-4651-a917-823259dd6d30.jpg" width="200" height="400"/><img src="https://user-images.githubusercontent.com/82382142/206210877-3b7e8c2c-9906-40a4-8591-3342f31459e1.jpg" width="200" height="400"/>
 
